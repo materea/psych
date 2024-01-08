@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Mental Health</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+      <h1>Mental Health</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+        <!-- READ SUMMARY CONTAINER -->
+        
+              <!-- Summary Overlay -->
+              <div class="summary-overlay" id="summaryOverlay"></div>
+        
+        
+              <div class="summary-card" id="summaryCard">
+                
+                <div class="summary-header">
+                  <h3>Note Summary</h3>
+                  <div class="icon-box">
+                    <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                    <img src="../images/icons/summary.png" alt="Icon" class="icon">
+                  </div>
+                </div>
+                <div class="summary-content">
+                  <!-- Summary content goes here -->
+                  <p><i>This content is not available yet.</i></p>
+        
+                  <span class="close-btn" id="closeBtn">close</span>
+                </div>
+              </div>
+        
+              <div class="summary-trigger" id="summaryTrigger">
+                <p>Click here to read a summary</p>
+            </div>
+        <!-- END OF READ SUMMARY CONTAINER -->
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Expectations</h4>
+            <p>What do you want from this discussion?</p>
+            <ul>
+              <li>What mental wellbeing is</li>
+              <li>What mental illness is like</li>
+              <li>Risk and protective factors</li>
+              <li>Mental health literacy</li>
+              <li>Management of mental health and ill health</li>
+              <li>Self-help</li>
+            </ul>
+                
+            <h4>What is mental health?</h4>
+            <ul>
+              <li>It is how we look at ourselves, our lives, and the people around us.</li>
+              <li>It is how we think, feel, and act in order to face life’s situations.</li>
+              <li>Like physical health, our mental health changes.</li>
+              <li>So we need to be able to recognize changes in our/ others' health and</li>
+              <li>to know when they need help.</li>
+            </ul>
+            
+            <h4>Mental health is defined as a state of well-being in which every individual realizes</h4>
+
+            <ul>
+              <li>His or her own potential,</li>
+              <li>Can cope with the normal stresses of life,</li>
+              <li>Can work productively and fruitfully,</li>
+              <li>And is able to make a contribution to her or his own community.</li>
+            </ul>
+            
+            <h4>Good mental health is more than simply the absence of mental disorder</h4>
+            <ul>
+              <li>A sense of self-sufficiency, self-esteem, and self-worth</li>
+              <li>The ability to put one’s trust in others</li>
+              <li>The ability to give and receive friendship, affection, and love</li>
+              <li>The ability to form enduring emotional attachments</li>
+              <li>The ability to experience deep emotions</li>
+              <li>The ability to forgive others and oneself</li>
+              <li>The ability to learn from experience</li>
+              <li>The ability to tolerate uncertainty and take risks</li>
+              <li>The ability to engage in reverie and fantasy</li>
+              <li>The ability to have a good sense of meaning and purpose in life</li>
+            </ul>
+            
+            <p>What is mental health?</p>
+            <p>4 criteria according to W.H.O</p>
+            <ol>
+              <li>Discovery of unique potential</li>
+              <li>Effective and adaptive coping mechanisms for stress</li>
+              <li>Measurable productivity</li>
+              <li>Qualitative contribution to society</li>
+            </ol>
+            
+            <h4>Mental Capital</h4>
+            <p>The totality of a person’s cognitive emotional resources:</p>
+            <ul>
+              <li>Cognitive capability, flexibility, and efficiency of learning</li>
+              <li>Emotional intelligence</li>
+              <li>Resilience in the face of stress</li>
+            </ul>
+            <p>In a sense, it is the bank account of the brain</p>
+            
+            <h4>Social Capital</h4>
+            <ul>
+              <li>Social acceptance</li>
+              <li>Social actualization</li>
+              <li>Social contribution</li>
+              <li>Social coherence</li>
+              <li>Social integration</li>
+              <li>It includes social support, benefits obtained from belonging to social networks, ensuring access to resources</li>
+            </ul>
+            
+
+                        <!-- image here -->
+                        <div class="image-container">
+                            <img src="../figures/" alt="" onclick="openModal(this)">
+                            <div class="caption">Dimensions of mental well-being</div>
+                          </div>
+                          
+                          <div id="myModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption" class="caption">Dimensions of mental well-being</div>
+                          </div>
+
+                                      <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/" alt="" onclick="openModal(this)">
+                <div class="caption">No health without mental health</div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">No health without mental health</div>
+              </div>
+
+                          <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/" alt="" onclick="openModal(this)">
+                <div class="caption">Dual continuum of mental health  </div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">Dual continuum of mental health  </div>
+              </div>
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Mental Disorder</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Mental illness: is everybody’s business</h4>
+            <ul>
+              <li>Is very common</li>
+              <li>Can affect anybody</li>
+              <li>Causes great suffering and disability</li>
+              <li>Places a great burden on every society</li>
+              <li>Can be treated cheaply and easily</li>
+              <li>Does not stop a person from having a good life or supporting their family.</li>
+            </ul>
+            
+            <h4>What is a mental disorder?</h4>
+            <p>The mind of a person (the emotions, the thinking) can fall ill just as the physical body.</p>
+            <ul>
+              <li>A mental disorder is a real medical illness</li>
+              <li>The person‘s capability to feel, to think, to work, to enjoy relationships, and to cope with stresses is affected in a negative way</li>
+              <li>Mental illness includes a broad range of symptoms</li>
+            </ul>
+            
+            <p>Mental disorder ia any behavior or habit that causes</p>
+            <ul>
+              <li>Distress to self</li>
+              <li>Distress to significant others</li>
+              <li>Distress to society</li>
+            </ul>
+
+            <h4>Types & Prevalence in general population</h4>
+            <ul>
+              <li>Common Mental Disorders: 10-20%</li>
+              <li>Psychoses: 1%</li>
+              <li>Personality disorders: 3-7%</li>
+              <li>Dementias: 5% over 65 and 20% over 80</li>
+              <li>Substance abuse – variable</li>
+              <li>Childhood disorders: 10%</li>
+            </ul>
+            
+            <h4>Symptoms of mental illness</h4>
+            <p>5 main groups:</p>
+            <ol>
+              <li>Physical symptoms e.g. aches and pain, weakness, sleep problems, change in appetite</li>
+              <li>Feeling symptoms (emotions) e.g. sadness, fear, or worry</li>
+              <li>Thinking symptoms e.g. problems with concentration or memory</li>
+              <li>Behaviour symptoms e.g. problems with relationships, talking out of context</li>
+              <li>Perception symptoms e.g. hearing or seeing things not seen by others</li>
+            </ol>
+            
+            <h4>Signs and symptoms of mental illness</h4>
+            <ul>
+              <li>Excessive concern about bodily symptoms (headache, backache)</li>
+              <li>Loss of enjoyment</li>
+              <li>Loss of confidence</li>
+              <li>Low mood</li>
+              <li>Crying</li>
+              <li>Anxiety and panic</li>
+              <li>Fatigue</li>
+              <li>Poor concentration</li>
+              <li>Impaired sleep</li>
+              <li>Impaired appetite and weight loss</li>
+              <li>Irritability</li>
+              <li>Low libido</li>
+              <li>Obsessional thoughts and actions</li>
+            </ul>
+            
+            <h4>Signs & symptoms 2</h4>
+            <ul>
+              <li>Worrying about things a lot</li>
+              <li>Feeling something terrible is going to happen</li>
+              <li>Feeling scared</li>
+              <li>Avoiding certain situations</li>
+              <li>Muscle tension and restlessness</li>
+              <li>Physical symptoms like rapid heart beat, dizziness, and trembling</li>
+              <li>Excessive use of alcohol and other drugs</li>
+            </ul>
+            
+            <h4>Risk factors</h4>
+            <p>Factors that increase the probability of developing a disease, health condition, or social problem.</p>
+            <p>May be associated with the increased probability of early onset, greater severity, and longer duration of major health and mental health problems.</p>
+            
+            <p>Factors that increase the probability of developing a disease, health condition, or social problem.</p>
+            <p>May be associated with the increased probability of early onset, greater severity, and longer duration of major health and mental health problems.</p>
+            
+            <ul>
+              <li><b>Social:</b> life events, chronic adversity, poor social support, poor relationships, isolation, poverty</li>
+              <li><b>Physical:</b> Chemical imbalance, genetic, endocrine abnormality, nutrition, infection</li>
+              <li><b>Psychological:</b>Unhelpful learned patterns of behavior, pessimistic thinking</li>
+            </ul>
+            
+            
+            <h4>Protective factors</h4>
+            <p><b>Resilience:</b> This refers to an individual’s ability to deal successfully with adversity and to avoid ‘breakdown’ and health problems when faced with stressors.</p>
+            <p>The capacity to deal with difficulties (stress) and to avoid health problems differs tremendously in individuals.</p>
+            
+            <p>Protective factors that increase a person’s resilience include:</p>
+            <ul>
+              <li>Having trusting relationships / good social capital</li>
+              <li>Having a ‘positive’ view of oneself (self worth and dignity)</li>
+              <li>Past experience of having faced and overcome difficulties successfully</li>
+              <li>Having experienced a childhood with caring parents and relatives</li>
+              <li>Living in a safe community with strong social networks</li>
+              <li>Having good physical health</li>
+              <li>Having good coping strategies</li>
+            </ul>
+            
+            <h4>Consequences of mental illness</h4>
+            <ul>
+              <li>Suffering</li>
+              <li>Marital breakdown</li>
+              <li>Disability</li>
+              <ul>
+                <li>Intellectual and emotional</li>
+                <li>Mortality damage to children – Suicide</li>
+                <li>Cycle of disadvantage across generations</li>
+              </ul>
+              <li>Physical illness</li>
+              <li>Unemployment</li>
+              <li>Low productivity</li>
+              <li>Poverty</li>
+              <li>Stress on carer</li>
+              <ul>
+                <li>Burnout, compassion fatigue, depression</li>
+              </ul>
+            </ul>
+            
+            <h4>Myths about mental illness</h4>
+            <ul>
+              <li>They result due to possession by evil spirits/curses/black magic/Bad karma</li>
+              <li>They are a result of character weakness or laziness</li>
+              <li>They cannot be treated/ Mental disorders never get better</li>
+              <li>Mental illness only happens to other people</li>
+              <li>Mental illness is mostly caused by addictions - therefore if we put all our resources into prevention of drug trafficking and addiction we won’t need to worry about mental illness</li>
+            </ul>
+            
+
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Factors to Consider in Mental Disorders</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <h4>Contextual factors to consider in mental disorders</h4>
+            <ul>
+              <li>Causal factors related to mental health external to the individual</li>
+              <li>Culture</li>
+              <li>Poverty</li>
+              <li>Gender</li>
+              <li>Discrimination</li>
+            </ul>
+
+            <h4>What is Culture?</h4>
+            <p>The set of distinctive, spiritual, material, intellectual, and emotional features of society or a social group. It encompasses, in addition to art and literature, lifestyles, ways of living together, value systems, traditions, and beliefs. (UNESCO, 2002)</p>
+            
+            <h4>Culture and mental health/illness</h4>
+            <p>Culture contributes:</p>
+            <ul>
+              <li>To socioeconomic disparities & multiple forms of discriminations</li>
+              <li>To significant health disparities in every society</li>
+              <li>To structuring inequalities and to the distribution of health problems and resources in the population.</li>
+            </ul>
+            
+            <p>Culture affects:</p>
+            <ul>
+              <li>Perception and experience of symptoms, suffering, and well-being</li>
+              <li>Explanations, interpretations, or causal attributions of symptoms and illness</li>
+              <li>Patterns of coping and help-seeking</li>
+              <li>Strategies for healing and treatment intervention</li>
+              <li>Expectations of illness course and outcome</li>
+              <li>Social consequences of symptoms, functional impairment, and diagnostic labels</li>
+            </ul>
+
+            <h4>Cycle of Poverty and Mental illness</h4>
+            <p>Poor people are more likely to experience mental disorders due to stresses associated with poverty. Mental illnesses are likely to worsen with poverty.</p>
+            
+            <h4>Gender and mental health</h4>
+            <p>Gender refers to socially constructed expectations regarding the ways in which one should think and behave depending on sexual classification (Rosenfield 1999).</p>
+            
+            <p>Gender affects:</p>
+            <ul>
+              <li>Access to resources</li>
+              <li>Coping strategies</li>
+              <li>Styles of interaction</li>
+              <li>Spirituality</li>
+              <li>Expectations from others</li>
+            </ul>
+            
+            <p>Women are more emotional and expressive, so are more likely to seek help. Women earn lower income and represent 80% of the world's poorest. Women may not be able to assess health care services in some cultures because they cannot go out alone. Some cultures allow men to use psychoactive drugs but frown when done by women.</p>
+            
+            <h4>Stigma and mental illness</h4>
+            <p>Stigma is negative attitudes and beliefs that motivate the general public to fear, reject, avoid, and discriminate against people with mental illness.</p>
+            
+            <p>People with diagnosable mental disorders do not seek treatment; they conceal or deny their symptoms. Stigma discourages adherence to effective treatment, leading to social isolation and discrimination.</p>
+            
+            <p>Stigma leads to:</p>
+            <ul>
+              <li>Lack of employment opportunities</li>
+              <li>Limitations on finding adequate shelter</li>
+              <li>Barriers to obtaining treatment services, including negative attitudes of health professionals</li>
+              <li>Role of the media in perpetuating the negative image of people with mental illness</li>
+            </ul>
+            
+            <h4>Self-care</h4>
+            <p>The practice of taking action to preserve or improve one’s own health. It involves active participation in one’s wellness and happiness with or without active support of healthcare providers.</p>
+            
+            <h4>Self-help strategies</h4>
+            <ul>
+              <li>Sleep hygiene</li>
+              <li>Healthy eating</li>
+              <li>Regular exercise</li>
+              <li>Relaxation and breathing exercises</li>
+              <li>Adaptive coping skills</li>
+              <li>Encourage seeking support when required from loved ones</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Management of mental illness</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <h5>Biological interventions:</h5>
+            <p>Mainly involves the use of drugs and physical therapy.</p>
+            
+            <h5>Psychological interventions:</h5>
+            <p>These are relationships aimed at promoting better adaptation to situations by optimizing personal resources in relation to autonomy, self-knowledge, and self-help.</p>
+            
+            <h5>Social interventions:</h5>
+            <p>Social interventions include those relating to addressing social adversity, e.g., provision of social support, housing, employment, economic development, improving interpersonal skills, etc.</p>
+
+            <p>Strengthening individuals:</p>
+            <ul>
+              <li>Reduce risk factors/increase protective factors</li>
+            </ul>
+            
+            <p>Strengthening communities:</p>
+            <ul>
+              <li>Reduce structural barriers to mental health</li>
+            </ul>
+            
+            <h4>Why is mental health important?</h4>
+            <ul>
+              <li>It is common, with about 900 million people worldwide suffering from mental illness.</li>
+              <li>Mental health (MH) ill health causes a heavy burden and decreases productivity.</li>
+              <li>Mental health (MH) ill health impedes the achievement of other health and development targets.</li>
+              <li>Mental health (MH) illness contributes to poverty and differentially affects the poor.</li>
+              <li>Mental health (MH) has intrinsic value, as does physical health.</li>
+            </ul>
+            
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Mental health literacy</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Coined in the mid-1990s, mental health literacy refers to knowledge and beliefs about mental disorders that aid in recognition, management, or prevention.</p>
+            
+            <p>It incorporates:</p>
+            <ul>
+              <li>Knowing how to prevent mental disorders</li>
+              <li>Recognition of when a disorder is developing to facilitate help-seeking</li>
+              <li>Knowing effective treatment options and availability</li>
+              <li>Knowing effective self-help strategies for milder problems</li>
+              <li>First aid skills to support others who are in crisis or developing ill health</li>
+            </ul>
+            
+            <h4>Elements of psychological first aid</h4>
+            <ul>
+              <li>Approach individual</li>
+              <li>Assess situation</li>
+              <li>Assist in any crisis</li>
+              <li>Listen non-judgmentally</li>
+              <li>Offer support</li>
+              <li>Offer information</li>
+              <li>Encourage help-seeking from professionals</li>
+              <li>Encourage social support and self-help strategies</li>
+            </ul>
+
+            <h4>The facts about Mental Health Problems</h4>
+
+            <ul>
+              <li>People feel very uncomfortable talking about mental health.</li>
+              <li>A reason for this is stigma.</li>
+              <li>People with mental illness can be stereotyped and discriminated against.</li>
+              <li>By ridiculing someone, we create a barrier that makes us think we aren’t like that person.</li>
+              <li>We want to believe ‘that could never be me’.</li>
+              <li>For some people, the impact of stigma is worse than the symptoms of their illness.</li>
+              <li>We are frightened of mental illness in a way that we are not about physical illness.</li>
+            </ul>
+            
+            <p>It makes people reluctant to admit that they are struggling with mental health difficulties and this can delay treatment and support.</p>
+            
+            <p>We are aware of how people’s recovery can be held back by the barriers that stigma creates, often through problems encountered at work.</p>
+            
+            <p>To reduce stigma and discrimination, we need much better education.</p>
+            <p>Teaching people the facts about mental health problems and getting rid of the myths.</p>
+            
+            <h4>Remember:</h4>
+
+            <p><b>ALL</b> mental health problems can be helped by:</p>
+            <ul>
+              <li>Support</li>
+              <li>Talking Therapies</li>
+              <li>Medications</li>
+            </ul>
+            
+            <p>The prognosis for the vast majority of conditions is very positive with the right help.</p>
+            
+            <p>In most cases, even those with long-term conditions can be supported to live a quality life and lead full & productive lives including employment.</p>
+            
+        </div>
+      </section>
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The content on this ‘Website’, including but not limited to text, graphics, images, videos, and other materials, is for educational purposes only. The creators and operators of this Website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the Website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this Website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
