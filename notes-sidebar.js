@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Array of topics - you can dynamically generate this from your existing content
     var topics = [
       "Mental Health",
-      "",
+      "Classification of Psychiatric Disorders",
       "",
       "",
       "",
