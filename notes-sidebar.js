@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var topics = [
       "Mental Health",
       "Classification of Psychiatric Disorders",
-      "",
+      "Psychological Assessment",
       "",
       "",
       "",
