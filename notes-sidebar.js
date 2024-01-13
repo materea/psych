@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Mental Health",
       "Classification of Psychiatric Disorders",
       "Psychological Assessment",
-      "",
+      "Psychological Intervention",
       "",
       "",
       "",
