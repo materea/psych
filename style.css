@@ -2280,6 +2280,17 @@ body.dark-mode {
  color: var(--color-darker);
 }
 
+.dark-mode .sidebar {
+  background-color: var(--color-secondary-dark);
+}
+
+.dark-mode .sidebar a {
+  color: var(--color-darker-dark);
+}
+
+.sidebar a:hover {
+  color: var(--color-ash);
+}
 /* Styling for active (pressed) state */
 .comment-button:active {
   background-color: var(--color-secondary-dark);
@@ -2304,6 +2315,7 @@ body.dark-mode {
     box-shadow: -40px 0px 80px -80px var(--color-ash), 40px 0px 80px -80px var(--color-ash);
     padding: 3rem;
   }
+
 
   .button-homepg {
 
