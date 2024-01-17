@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Psychological Intervention",
       "Somatoform Disorders",
       "Drug Treatment Antipsychotics Antidepressants Lithium and Other Mood Stabilizers",
-      "",
+      "Affective Disorders",
       "",
       "",
       "",
