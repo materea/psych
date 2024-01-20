@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Drug Treatment Antipsychotics Antidepressants Lithium and Other Mood Stabilizers",
       "Drug Treatment Anxiolytics Hypnotics and Antiepileptics",
       "Affective Disorders",
-      "",
+      "Organic Mental-Neurocognitive disorders",
       "",
       "",
       ""
