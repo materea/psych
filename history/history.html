@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>History</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+      <h1>History</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+      <br>
+      <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Biodata</a>
+          </h2>
+        </header>
+        <div class='body'>
+          <p>Presented in not more than 3 sentences (NAMGOTRAdIS)</p>
+          
+          <ul>
+            <li><strong>Name:</strong></li>
+            <li><strong>Age:</strong> Corroborate with date of birth</li>
+            <li><strong>Marital status:</strong></li>
+            <li><strong>Gender:</strong></li>
+            <li><strong>Occupation:</strong></li>
+            <li><strong>Tribe:</strong></li>
+            <li><strong>Religion:</strong></li>
+            <li><strong>Address:</strong></li>
+            <li><strong>Informant:</strong></li>
+          </ul>
+          
+          <p>Usually, the principal informant is the patient. If not, state the reason.</p>
+          
+          <p>The name(s), relationship to the patient, and length of acquaintance of any other person interviewed.</p>
+          
+          <p>Make a comment regarding the reliability of the information provided by informant(s) assessed on the following parameters:</p>
+          
+          <ul>
+            <li>Familiarity with the patient and length of stay with the patient</li>
+            <li>Degree of concern regarding the patient</li>
+            <li>Intellectual and observational ability of the informant</li>
+          </ul>
+          
+          <p><strong>Source of referral:</strong></p>
+          <ul>
+            <li>Formal or informal</li>
+            <li>State name of referrer</li>
+            <li>Brief reasons for referral</li>
+            <li>Where is the patient being seen</li>
+          </ul>
+          
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Presenting Complaints</a>
+          </h2>
+        </header>
+        <div class='body'>
+          <h4>Presenting Complaints - with duration in chronological order</h4>
+
+          <p><strong>Complaints by Patient:</strong> If the patient has no complaint (probably due to absent insight), state it.</p>
+          
+          <p><strong>Complaints by Other Informant(s):</strong></p>
+          
+          <p>As much as possible, state the chief complaint as a verbatim quote.</p>
+          
+          <p>Make a list of presenting complaints as concise as possible :</p>
+          
+          <ul>
+            <li>Complaint 1</li>
+            <li>Complaint 2</li>
+            <li>Complaint 3</li>
+            <li>Complaint 4</li>
+            <li>Complaint 5</li>
+          </ul>
+          
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>History of Presenting Complaints</a>
+          </h2>
+        </header>
+        <div class='body'>
+          <p><strong>Chronological Description of SECT:</strong></p>
+          
+          <h4>Symptoms of the Current Episode:</h4>
+
+          <ul>
+            <li>Describe how each symptom evolved – duration, how and when it began, nature, severity, course (increasing/decreasing, constant/intermittent)</li>
+            <li>Ask & record symptoms that might have been expected but which are not present</li>
+          </ul>
+          
+          <p>Refer to clerkship of symptoms in the appendix.</p>
+          
+          <h4>Etiology of the Symptoms:</h4>
+          
+          <ul>
+            <li>Ask for possible precipitants or triggers - temporal relationship between symptoms and any physical disorder, psychological, or social problem</li>
+            <li>Perpetuating and worsening factors – that exacerbate symptoms</li>
+            <li>Protective and improving factors – that alleviate symptoms – like medication, support, coping skills, time of day</li>
+          </ul>
+          
+          <p>R/o other diagnoses - refer to <a href="">psychiatric review of symptoms.</a>.</p>
+          
+          <h4>Complications of Current Symptoms</h4>
+
+          <ul>
+            <li>The nature and duration of any functional impairment - at school, work, in the family; patient's interests; interpersonal relationships; personal habits, and physical health</li>
+            <li>How others have reacted to the patient’s problem</li>
+          </ul>
+          
+          <h4>Treatment So Far:</h4>
+          
+          <ul>
+            <li>Detailed analysis of treatment received in chronology – dose, duration, adherence, outcome i.e., effects & side effects</li>
+            <li>Is treatment continuing? – If ‘No’, ask why</li>
+          </ul>
+          
+          <p><strong>Reason for Seeking Help Today:</strong></p>
+          
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Past Psychiatric History</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+          <p><strong>Details of Contact with Psychiatrists or Previous Episode(s) of Psychiatric Illness:</strong></p>
+          
+          <ul>
+            <li>In chronology, discuss the details of contact with psychiatrists or previous episode(s) of psychiatric illness from which the client completely recovered.</li>
+            <li>For each episode inquire about - date, age at the time of illness (especially the first episode), symptoms of the episode, duration, nature, location, diagnosis (by who?), mode of treatment (out-patient or in-patient treatment including adherence)</li>
+            <li>If in-patient treatment was received, state how long admission was for, how many admissions so far, and when the last admission was</li>
+            <li>Response to treatment & how long each episode lasted: E.g., “he did well on medications …. and symptoms abated over 3 months”</li>
+            <li>Longest period of wellness in between episodes; explore the reason for this longer period of wellness</li>
+            <li>Level of functioning in between episodes – personal, occupational, or educational, family, and other social context</li>
+          </ul>
+          
+          <p><strong>Suicide and Deliberate Self-Harm Attempts:</strong></p>
+          
+          <ul>
+            <li>Discuss any history of suicide and deliberate self-harm attempts</li>
+          </ul>
+          
+
+          
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'> Past Medical History</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p><strong>History of Chronic Medical Condition (HEADS- Hypertension, Epilepsy, Asthma, Diabetes, SCD)</strong> Including neurological illnesses</p>
+          
+            <p><strong>Current Medication:</strong></p>
+            
+            <ul>
+              <li>Include over-the-counter medications and alternative remedies</li>
+            </ul>
+            
+            <p><strong>Any Allergies or Adverse Reactions:</strong></p>
+            
+            <p><strong>Previous Surgeries in Details:</strong></p>
+            
+            <ul>
+              <li>Dates, type of surgery, post-operative complications</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Family History</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Position in the family</p>
+
+            <h4>Type of Family:</h4>
+          <p> Monogamous or polygamous; Christian/Muslim</p>
+          
+          <h4>Father (HAPPROM):</h4>
+          
+          <ul>
+            <li><strong>Health:</strong> Current state of health or date and cause of death</li>
+            <li><strong>Age:</strong> Age at death if deceased</li>
+            <li><strong>Personality:</strong> What he was like as a person</li>
+            <li><strong>Psychiatric and Medical History</strong></li>
+            <li><strong>Quality of Relationship with Patient</strong></li>
+            <li><strong>Occupation</strong></li>
+            <li><strong>Former Marriages or Cohabitation</strong></li>
+          </ul>
+          
+          <h4>Mother</h4>
+
+          <p><strong>HAPPROM (as above)</strong></p>
+          
+          <ul>
+            <li><strong>Health:</strong> Current state of health or date and cause of death</li>
+            <li><strong>Age:</strong> Age at death if deceased</li>
+            <li><strong>Personality:</strong> What she was like as a person</li>
+            <li><strong>Psychiatric and Medical History</strong></li>
+            <li><strong>Quality of Relationship with Patient</strong></li>
+            <li><strong>Occupation</strong></li>
+            <li><strong>Former Marriages or Cohabitation</strong></li>
+          </ul>
+          
+          <p><strong>History of Miscarriages or Stillbirths</strong></p>
+          
+          <p><strong>Other Wives – Position of Patient’s Mother:</strong></p>
+          
+          <ul>
+            <li>Any father’s favorite(s) among the wives?</li>
+          </ul>
+          
+          <h4>Siblings:</h4>
+          
+          <p>Siblings from the same mother and father in chronological order –</p>
+          
+          <ul>
+            <li><strong>HANPPROMPS:</strong> Name + HAPPROM (as above) + Place of abode, Sex, Marital status including the number of children</li>
+          </ul>
+          
+          <p>Half Siblings and Step Siblings:</p>
+
+          <h4>Relationship with Family</h4>
+
+          <p><strong>When family history is complex and relevant, you can summarize it as a family tree</strong></p>
+          
+          <h4>Family History of Mental Illness:</h4>
+          
+          <ul>
+            <li><strong>Known or Suspected:</strong> Identify who has the illness; relationship to the patient; features of the illness; diagnosis; treatment and response</li>
+            <li><strong>Suicide, DSH, Psychoactive Substance Use in Relatives</strong></li>
+          </ul>
+          
+        </div>
+      </section>
+
+
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'> Personal History</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+          <h4>Mother’s Pregnancy:</h4>
+          
+          <ul>
+            <li><strong>Planned/Desired</strong></li>
+            <li><strong>ANC:</strong> GA at booking and where ANC was received, maternal immunization and illness (physical and mental health) during pregnancy, psychoactive substance use in pregnancy as well as prescribed medications</li>
+            <li><strong>Duration of Pregnancy:</strong> Term/Preterm</li>
+          </ul>
+          
+          <h4>The Birth:</h4>
+          
+          <ul>
+            <li><strong>Problems with Labour</strong></li>
+            <li><strong>Place and Type of Delivery:</strong> SVD, Assisted, Caesarean</li>
+            <li><strong>Supervision by Skilled Attendant</strong></li>
+            <li><strong>APGAR Score/Cried After Birth</strong></li>
+            <li><strong>Birth Weight</strong></li>
+            <li><strong>Length of Stay in the Hospital Before Discharge</strong></li>
+          </ul>
+          
+
+          <h4>Neonatal Period</h4>
+
+          <ul>
+            <li>Need for special care for baby</li>
+            <li>Inquire about infections, jaundice, and treatment received</li>
+          </ul>
+          
+          <h4>Early Childhood:</h4>
+          
+          <ul>
+            <li><strong>Immunization History</strong></li>
+            <li><strong>Developmental Milestones:</strong> Walking, talking, etc.</li>
+            <li><strong>Significant Illnesses or Trauma:</strong> Especially seizures or head injury and loss of consciousness</li>
+            <li><strong>Prolonged Separation from Parents:</strong> And the patient’s reaction to it</li>
+            <li><strong>Any Emotional Problems:</strong> Age of onset, course, treatment</li>
+            <li><strong>Any Serious Illness or Adverse Experiences:</strong> E.g., sexual and/or physical abuse. [Ask if this is the first time of disclosure or if it has been talked about much]</li>
+          </ul>
+          
+          <h4>Education</h4>
+
+          <ul>
+            <li>Schools Attended with Dates (Chronologically)</li>
+            <li>Ages at Commencement and Completion</li>
+            <li>Performance and Qualifications Obtained</li>
+            <li>Highest Level Attained</li>
+            <li>State Reasons for Any Repetition(s) of Classes or Examinations and Dropouts from School</li>
+            <li>Relationship with Peers and Teachers</li>
+            <li>Any Positions of Responsibility Held</li>
+            <li>Games, Hobbies, Interests</li>
+            <li>Truancy, Conduct Disorders, School Refusal, Bullying</li>
+          </ul>
+          
+          <h4>Occupational History:</h4>
+          
+          <ul>
+            <li><strong>Present Job - Dates, Duties, Performance, and Satisfaction:</strong> Reasons for Job Dissatisfaction, Current Income</li>
+            <li><strong>Earlier Jobs – List Them, with Reasons for Changes or Loss of Job</strong></li>
+            <li><strong>Promotions:</strong> If ‘No’, why?</li>
+            <li><strong>Ambitions</strong></li>
+          </ul>
+
+
+          
+          <h4>Psychosexual History</h4>
+
+          <ul>
+            <li>Age of onset of puberty (e.g. menarche, breaking of voice, shaving beard or armpit hair)</li>
+            <li>Menstruation – Regular or irregular, LMP, days of flow, duration of menstrual cycle</li>
+            <li>Significant Relationships:</li>
+            <ul>
+              <li>Identity and gender of current partner</li>
+              <li>Duration and nature of relationship</li>
+              <li>Partner’s health and attitude to patient’s illness</li>
+            </ul>
+            <li>Nature and Number of Previous Relationships:</li>
+            <ul>
+              <li>Duration, reasons for termination, impact on patient</li>
+            </ul>
+            <li>Coitarche (age at first sexual experience) – Circumstances and consent</li>
+            <li>Sexual Orientation/Fantasies – Heterosexual or homosexual, masturbation, etc.</li>
+            <li>Past and Current Sexual Practice:</li>
+            <ul>
+              <li>Attitude to sex, contraceptives, any sexual difficulties and their relationship to current symptoms</li>
+            </ul>
+            <li>Marital History (Current and Previous Enduring Intimate Relationships):</li>
+            <ul>
+              <li>Phrase questions in a way that does not assume the gender of the partner(s)</li>
+              <li>Name, age, and occupation of spouse</li>
+              <li>Personality and state of health of the spouse or partner</li>
+              <li>Length of courtship, how and when marriage was contracted</li>
+              <li>Quality of relationship</li>
+            </ul>
+            <li>Children – (Including date of any abortions or stillbirths):</li>
+            <ul>
+              <li>Name, age, sex, level of education, temperament, emotional development, mental and physical health, occupation, marital status, relationship with patient</li>
+              <li>Who are the carers?</li>
+            </ul>
+          </ul>
+          
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'> Social History</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+          <ul>
+            <li>Financial Situation/Economic Circumstances: Current and Past Debt Problems, Spending</li>
+            <li>Social Support</li>
+          </ul>
+          <h4>Present Living Condition</h4>
+
+          <ul>
+            <li>Type of Accommodation</li>
+            <li>Rented or Owned</li>
+            <li>Number of Occupants</li>
+            <li>Household Composition</li>
+          </ul>
+
+          
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'>Psychoactive Substance Use History </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+          <ul>
+            <li>Use of Alcohol, Tobacco, Illicit Drugs:</li>
+            <ul>
+              <li>Which one(s) used</li>
+              <li>When was it used</li>
+              <li>How much used</li>
+              <li>Problems arising from use</li>
+              <li>Source of finance for the drugs</li>
+            </ul>
+            <li>Ask for Prescription Drugs of Abuse:</li>
+            <ul>
+              <li>Benzodiazepines, Opioids</li>
+            </ul>
+          </ul>
+          
+         
+          
+        </div>
+      </section>
+
+      <section id='header-10'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-10'> Forensic History</a>
+          </h2>
+        </header>
+        <div class='body'>
+          
+          <ul>
+            <li>Arrests, Convictions (e.g., sexual offences, violence, vandalism, delinquency, gambling, other criminal behaviour) or Imprisonment:</li>
+            <ul>
+              <li>Past and Present Charges</li>
+              <li>Pending Court Cases</li>
+              <li>Unrecorded Offences - With Dates and Duration</li>
+            </ul>
+          </ul>
+        </div>
+      </section>
+
+
+      <section id='header-11'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-11'>Assessment of Personality (Pre-morbid) – R.L. ChAPU </a>
+          </h2>
+        </header>
+        <div class='body'>
+          <ul>
+            <li><strong>Relationships:</strong></li>
+            <ul>
+              <li>Shy or make friends easily</li>
+              <li>Friendships – Are friendships few or many, close and lasting or superficial, with own or opposite sex</li>
+              <li>Relationship with work colleagues & superiors</li>
+            </ul>
+            <li><strong>Leisure Activities - Hobbies and Interests:</strong></li>
+            <ul>
+              <li>Can shed light on personality, reflecting patient’s interests and preference for company or solitude, as well as their energy levels and resourcefulness</li>
+            </ul>
+            <li><strong>Character:</strong></li>
+            <ul>
+              <li>Optimist or pessimist</li>
+              <li>Loner or socialite</li>
+              <li>Pleasant, conscientious, stubborn, controlling, perfectionist, obsessional, isolated, leader, organizer, aggressive, submissive, timid, suspicious, quarrelsome, impulsive, sensitive, strict, reserved, shy, outgoing, rigid, overconfident</li>
+              <li>Inquire about strengths like resilience in the face of adversity as these could be targets for intervention</li>
+            </ul>
+
+            <li><strong>Attitudes and Standards</strong></li>
+
+            <ul>
+              <li><strong>E.g., Moral or Religious Beliefs and Practices:</strong></li>
+              <li>Dependent on others or independent</li>
+              <li>Dependable</li>
+              <li>Attitudes towards oneself (peculiar about health or body functions, self-conscious)</li>
+            </ul>
+            
+            <li><strong>Prevailing Mood and Emotional Tone</strong></li>
+            
+            <ul>
+              <li>Cheerful, gloomy, despondent, worrying, anxious, self-deprecating</li>
+              <li>Fluctuating moods without reason (if there are marked mood changes, inquire how quickly these moods appear, how long they last, if they follow life events)</li>
+            </ul>
+            
+          </ul>
+          
+        </div>
+      </section>
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+     
+
+
+      <!-- CONTACT- COMMENT  -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+    
+
+            <!-- END OF CONTACT- COMMENT CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../history-sidebar.js"></script>
+</body>
+</html>
+ 
