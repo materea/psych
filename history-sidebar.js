@@ -3,11 +3,11 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Array of topics - you can dynamically generate this from your existing content
     var topics = [
+      "Psychiatric Symptoms",
       "Clerkship of Common Symptoms",
       "History",
       "Mental State Examination",
       "Physical Examination",
-      "",
       "",
       ""
       // Add more topics as needed
