@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Drug Treatment Anxiolytics Hypnotics and Antiepileptics",
       "Affective Disorders",
       "Organic Mental-Neurocognitive disorders",
-      "",
+      "Stress Related Disorders and their Management",
       "",
       ""
       // Add more topics as needed
