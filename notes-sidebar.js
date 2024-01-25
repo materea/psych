@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Affective Disorders",
       "Organic Mental-Neurocognitive disorders",
       "Stress Related Disorders and their Management",
-      "",
+      "Schizophrenia",
       ""
       // Add more topics as needed
     ];
