@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "History",
       "Mental State Examination",
       "Physical Examination",
-      "",
+      "Descriptive Psychopathology",
       ""
       // Add more topics as needed
     ];
