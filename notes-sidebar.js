@@ -15,7 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
       "Stress Related Disorders and their Management",
       "Schizophrenia",
       "Anxiety and Other Related Disorders",
-      ""
+      "Sexual Disorders",
+      "",
+      "",
+      "",
       // Add more topics as needed
     ];
 
