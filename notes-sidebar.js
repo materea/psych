@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Schizophrenia",
       "Anxiety and Other Related Disorders",
       "Sexual Disorders",
-      "",
+      "Geriatric Psychiatry",
       "",
       "",
       // Add more topics as needed
