@@ -19,6 +19,13 @@ document.addEventListener('DOMContentLoaded', function () {
       "Geriatric Psychiatry",
       "",
       "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
       // Add more topics as needed
     ];
 
