@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Anxiety and Other Related Disorders",
       "Sexual Disorders",
       "Geriatric Psychiatry",
-      "",
+      "Psychosocial Aspects of Physical Disorders",
       "",
       "",
       "",
