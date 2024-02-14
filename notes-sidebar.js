@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Sexual Disorders",
       "Geriatric Psychiatry",
       "Psychosocial Aspects of Physical Disorders",
-      "",
+      "Community Psychiatry",
       "",
       "",
       "",
