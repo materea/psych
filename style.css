@@ -1094,7 +1094,7 @@ footer p, footer span{
   outline:none;
 }
 
-.custom-card {
+.custom-card, .note-card {
   border: 1px solid var(--color-darker-dark);
   border-radius: 8px;
   padding: 20px;
@@ -1104,7 +1104,7 @@ footer p, footer span{
   background-color: var(--color-darker-dark);
 }
 
-.custom-card .title h2 {
+.custom-card .title h2, .note-card .title h2 {
   font-size: .8rem;
   font-weight: bold;
   border-bottom: 1px solid var(--color-ash-dark);
@@ -1113,7 +1113,7 @@ footer p, footer span{
   margin-top: 10px;
 }
 
-.custom-card .line p {
+.custom-card .line p, .note-card .line p {
   margin-bottom: 10px;
   font-size: .6rem;
 }
@@ -1122,11 +1122,11 @@ footer p, footer span{
   display: none;
 }
 
-.custom-card .content p, .custom-card .content li{
+.custom-card .content p, .custom-card .content li, .note-card .content p, .note-card .content li{
   font-size: .6rem;
 }
 
-.custom-card .content li{
+.custom-card .content li, .note-card .content li{
   font-size: .6rem;
 }
 
@@ -1187,7 +1187,7 @@ footer p, footer span{
 }
 
 @media screen and (max-width: 400px) {
-  .custom-card .title h2 {
+  .custom-card .title h2, .note-card .title h2 {
     font-size: .8rem;
   }
 }
@@ -2303,7 +2303,7 @@ body.dark-mode {
 }
 
 
-.dark-mode .custom-card {
+.dark-mode .custom-card, .dark-mode .note-card {
   background-color: var(--color-secondary-dark);
   border: 1px solid var(--color-secondary-dark);
 

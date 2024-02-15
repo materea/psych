@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Geriatric Psychiatry",
       "Psychosocial Aspects of Physical Disorders",
       "Community Psychiatry",
-      "",
+      "Drug and Substance Abuse",
       "",
       "",
       "",
