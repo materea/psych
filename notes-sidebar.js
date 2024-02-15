@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Psychosocial Aspects of Physical Disorders",
       "Community Psychiatry",
       "Drug and Substance Abuse",
-      "",
+      "Traditional Therapies in Psychiatry in Nigeria",
       "",
       "",
       "",
