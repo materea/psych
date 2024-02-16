@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Drug and Substance Abuse",
       "Traditional Therapies in Psychiatry in Nigeria",
       "Normal Personality and Personality Disorders",
-      "",
+      "Forensic Psychiatry",
       "",
       "",
       "",
