@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Community Psychiatry",
       "Drug and Substance Abuse",
       "Traditional Therapies in Psychiatry in Nigeria",
-      "",
+      "Normal Personality and Personality Disorders",
       "",
       "",
       "",
