@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>EEG and Sleep Disorders</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+
+      <h1>EEG and Sleep Disorders</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+        <!-- READ SUMMARY CONTAINER -->
+        
+              <!-- Summary Overlay -->
+              <div class="summary-overlay" id="summaryOverlay"></div>
+        
+        
+              <div class="summary-card" id="summaryCard">
+                
+                <div class="summary-header">
+                  <h3>Note Summary</h3>
+                  <div class="icon-box">
+                    <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                    <img src="../images/icons/summary.png" alt="Icon" class="icon">
+                  </div>
+                </div>
+                <div class="summary-content">
+                  <!-- Summary content goes here -->
+                  <p><i>This content is not available yet.</i></p>
+        
+                  <span class="close-btn" id="closeBtn">close</span>
+                </div>
+              </div>
+        
+              <div class="summary-trigger" id="summaryTrigger">
+                <p>Click here to read a summary</p>
+            </div>
+        <!-- END OF READ SUMMARY CONTAINER -->
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction to EEG</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>In 1929 <b>Hans Berger</b> first described <b>electroencephalography</b> as a safe means of investigating brain function.</p>
+            <ul>
+              <li>The standard <b>electroencephalogram</b> involves recording from electrodes placed on the scalp according to the <b>international 10–20 system</b>.</li>
+              <li>The <b>10–20 system</b> or <b>International 10–20 system</b> is an internationally recognized method to describe and apply the location of scalp electrodes in the context of an <b>EEG</b> test or experiment.</li>
+            </ul>
+            <ul>
+                <li>This method was developed to ensure <b>standardization</b> and <b>reproducibility</b> so that a subject's studies could be compared over time and subjects could be compared to each other.</li>
+                <li>This system is based on the relationship between the location of an electrode and the underlying area of cerebral cortex. The "<b>10</b>" and "<b>20</b>" refer to the fact that the actual distances between adjacent electrodes are either <b>10%</b> or <b>20%</b> of the total front–back or right–left distance of the skull.</li>
+              </ul>
+              <h4>Electrodes Labelling</h4>
+              <p>Each electrode placement site has a letter to identify the lobe, or area of the brain it is reading from:</p>
+              <ul>
+                <li><b>Pre frontal</b> (<b>Pf</b> or <b>Fp</b>)</li>
+                <li><b>Frontal</b> (<b>F</b>)</li>
+                <li><b>Temporal</b> (<b>T</b>)</li>
+                <li><b>Parietal</b> (<b>P</b>)</li>
+                <li><b>Occipital</b> (<b>O</b>)</li>
+                <li><b>Central</b> (<b>C</b>) though no "Central lobe"</li>
+                <li><b>Zero</b> (for midline sagittal plane electrodes) e.g <b>FpZ</b>, <b>Fz</b>, <b>Cz</b>, <b>Oz</b></li>
+              </ul>
+              
+              <h4>Anatomical Landmarks</h4>
+              <p>Two anatomical landmarks are used for the essential positioning of the EEG electrodes:</p>
+              <ol>
+                <li>First, the <b>nasion</b>, which is the distinctly depressed area between the eyes, just above the bridge of the nose.</li>
+                <li>Second, the <b>inion</b>, which is the lowest point of the skull from the back of the head and is normally indicated by a prominent bump.</li>
+              </ol>
+              <h4>Standard EEG Recording</h4>
+              <ul>
+                <li>Several minutes at rest (and perhaps sleep)</li>
+                <li>Whilst over breathing (hyperventilation)</li>
+                <li>During exposure to flashing lights (photic stimulation)</li>
+                <li>Activating procedures provoke abnormalities.</li>
+              </ul>
+              
+              <p>The normal activity range is <b>1–40 Hz</b> frequency and <b>5–150 V</b> amplitude.</p>
+              
+              <ul>
+                <li>EEG is useful in diagnosing, defining, and monitoring the treatment of epilepsy.</li>
+                <li>However, a normal EEG does not exclude epilepsy.</li>
+                <li>Specialized forms of recording allow measurement of activity from specific parts of the brain e.g. nasopharyngeal and sphenoidal recordings detect medial temporal lobe activity.</li>
+              </ul>
+              
+              <h4>Other Means of Recording the EEG:</h4>
+              <ul>
+                <li><b>Ambulatory EEG</b> – record is maintained on suitable portable recorder</li>
+                <li><b>Video</b> and event recorders can be used to correlate clinical findings with those of EEG</li>
+                <li><b>Telemetric recording</b> provides a record from a distance.</li>
+              </ul>
+              
+              <h4>Normal EEG Wave Patterns</h4>
+              <p>(Classified according to frequency Hz)</p>
+              <p><b>BATHED or DeThAB</b></p>
+              <table class="note-table">
+                <tr>
+                  <th>Wave Type</th>
+                  <th>Frequency (Hz)</th>
+                </tr>
+                <tr>
+                  <td>Beta:</td>
+                  <td>>13</td>
+                </tr>
+                <tr>
+                  <td>Alpha:</td>
+                  <td>8–13</td>
+                </tr>
+                <tr>
+                  <td>Theta:</td>
+                  <td>4–8</td>
+                </tr>
+                <tr>
+                  <td>Delta:</td>
+                  <td><4</td>
+                </tr>
+              </table>
+              
+
+              <h4>Beta Activity (β)</h4>
+              <p>Awake resting adult with open eyes. Activity is related to sensory motor cortical stimulation and is enhanced by anxiety. Best recorded from frontocentral positions.</p>
+              <ul>
+                <li>Varies according to cortical site described as desynchronization (simultaneous waves are out of phase). Beta displacement of alpha activity upon arousal is called alerting or arousal response and described as alpha blocking.</li>
+              </ul>
+              
+              <h4>Alpha Activity (α)</h4>
+              <p>Awake resting adult EEG pattern that is most prominent over the occipital region.</p>
+              <ul>
+                <li>It is accentuated by eye closure and attenuated by attention.</li>
+                <li>It has a circadian rhythm and varies according to the menstrual cycle.</li>
+                <li>Amplitude can be attenuated by a fall in temperature and augmented by an increase.</li>
+                <li>Its frequency diminishes with age, and an interhemispheric difference of <b>1 Hz</b> is pathological.</li>
+              </ul>
+              
+              <h4>Theta Activity (θ)</h4>
+              <p>Unusual in waking adult (found transiently in 15 per cent of individuals). Normal in children aged 2–5 years and can be evoked by frustration.</p>
+              <p>Also found in psychopaths.</p>
+              
+              <h4>Delta Activity (δ)</h4>
+              <p>Abnormal in waking adult, may signify brain neoplasm. Characteristic of deep sleep and common in children, particularly infants. Induced by over breathing. Diffuse cortical distribution.</p>
+              
+              <h4>λ Lambda Activity (λ)</h4>
+              <p>Single, occipital sharp waves associated with ocular movements during visual scanning (associated with looking).</p>
+              
+              <h4>μ Mu Activity (μ)</h4>
+              <p>Arch-like waves that occur over precentral (motor) cortex. Related to movement and mitigated by motion of contralateral limb.</p>
+              
+              <h4>V Waves</h4>
+              <p>Normal phenomenon of sharp electronegative waves that occur over the vertex in response to an auditory stimulus. Also seen in drowsiness.</p>
+              
+              <h4>Spikes</h4>
+              <p>Brief peaks of less than 80 ms duration.</p>
+              
+              <h4>Sharp Waves</h4>
+              <p>Prominent wave formations of 80–200 ms duration.</p>
+              
+              <h4>EEG Variance with Age</h4>
+              <ul>
+                <li>Full-term newborn EEG activity is almost nil.</li>
+                <li>Infant (<1 year) EEG desynchronized delta activity.</li>
+                <li>Toddler (>2 years) EEG theta activity predominates.</li>
+                <li>Adolescent (second decade of life) EEG alpha activity is established.</li>
+                <li>Ageing adult alpha activity attenuates in amplitude and frequency.</li>
+                <li>Focal anterior temporal delta activity occurs in a third of those over 60 years.</li>
+              </ul>
+              
+              <h4>Activating Procedures</h4>
+              <p>Procedures used to elicit EEG abnormalities not discernible in standard EEG:</p>
+              <ul>
+                <li><b>Hyperventilation:</b> Cerebral hypoxia leads to cortical hyperexcitability.</li>
+                <li><b>Photic Stimulation (Photic Driving):</b> (20–30 Hz) synchronizes alpha rhythm.</li>
+                <li><b>Sleep Deprivation.</b></li>
+              </ul>
+              
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>EEG Changes- Pathology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>May signify pathology and can sometimes be diagnostic.</li>
+                <li>Can be because of surgical interventions, ECT, and medication.</li>
+                <li>About 15 per cent of EEG abnormalities are false positives.</li>
+              </ul>
+              
+              <p>EEG artifacts can be caused by:</p>
+              <ul>
+                <li>Muscular contraction (local)</li>
+                <li>Eye movement</li>
+                <li>Cardiac arrhythmias</li>
+              </ul>
+              
+              <h4>Organic Psychoses (Haemorrhage, Infarction, Infection, Trauma, Metabolic or Endocrine Disorders)</h4>
+              <ul>
+                <li>Usually diffuse symmetrical changes: ↓ α and ↑ θ and δ.</li>
+                <li>Focal lesions, e.g. tumours, subdural haematoma EEG changes are asymmetrical.</li>
+              </ul>
+              
+              <h4>Epilepsy</h4>
+              <ul>
+                <li>Temporal lobe (TLE) sleep EEG + routine EEG detect spike foci in 90 per cent.</li>
+                <li>Petit mal: Generalized compound waves and spikes with a frequency of 3 Hz.</li>
+              </ul>
+              
+              <h4>Dementias</h4>
+              <ul>
+                <li>Alzheimer’s: 95 per cent of those with definite AD have abnormal EEG. Alpha activity decreases and delta/theta activity increases.</li>
+                <li>Multi-infarct dementia: EEG of little help.</li>
+                <li>Pick’s disease: 50 per cent have abnormal EEG. Alpha activity better preserved than in AD.</li>
+              </ul>
+              
+              <h4>Huntingdon’s Chorea</h4>
+              <p>Characteristic (not specific) diffuse flattening of EEG with low amplitude theta and delta waves.</p>
+              
+              <h4>Hepatic Encephalopathy</h4>
+              <p>Triphasic waves and widespread slowing.</p>
+              
+              <h4>Hypoxia</h4>
+              <p>Occipital alpha rhythm is gradually replaced by theta and delta activity.</p>
+              <p>Then with severe hypoxia, there is initially intermittent cortical suppression resulting in a ‘burst-suppression’ effect which then progressively gives way to a flat EEG trace.</p>
+              
+              <h4>Midbrain Tegmentum Infarction</h4>
+              <p>Severe brainstem injury results in invariant alpha rhythm (alpha-coma).</p>
+              
+              <h4>Alcohol</h4>
+              <p>Increases alpha activity. Delirium tremens – increased fast activity.</p>
+              
+              <h4>Carbamazepine</h4>
+              <p>Increases slow-wave sleep.</p>
+              
+              <h4>ECT (Electroconvulsive Therapy)</h4>
+              <p>Between treatments, there is diffuse EEG slowing (frontal region slowest to recover) increasing with each treatment and normalizing one month post-ECT.</p>
+              
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Introduction to Sleep</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Definition:</h4>
+            <p>Recurrent, regular, reversible state characterized by quiescence and diminished responsiveness to external stimuli.</p>
+            
+            <h4>Function</h4>
+            <ul>
+              <li>Restoration and recovery (psychological and physical)</li>
+              <li>Consolidation of memories</li>
+              <li>Conservation of energy</li>
+              <li>Neural growth and repair</li>
+              <li>Resetting of emotions</li>
+            </ul>
+            
+            <p>The Electroencephalogram (EEG) in an awake individual, is random and fast. When resting quietly, with eyes closed, the EEG shows alpha waves. Muscle tone, measured by electromyogram (EMG) activity, is high and eye movements are present.</p>
+            
+            <p>The transition through drowsiness from being awake to sleeping is called the hypnagogic period and during this muscle tone diminishes, the eyes begin to roll, and EEG alpha activity decreases.</p>
+            
+            <ul>
+              <li>Sleep is divided into REM (rapid eye movement) and non-REM sleep.</li>
+              <li>REM sleep is also called desynchronized sleep and dreaming sleep.</li>
+            </ul>
+            
+
+            <table class="note-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>REM</th>
+                    <th>NREM</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Autonomic activity</td>
+                    <td>Sympathetic</td>
+                    <td>Parasympathetic</td>
+                  </tr>
+                  <tr>
+                    <td>Heart rate</td>
+                    <td>↑</td>
+                    <td>↓</td>
+                  </tr>
+                  <tr>
+                    <td>Blood pressure</td>
+                    <td>↑</td>
+                    <td>↓</td>
+                  </tr>
+                  <tr>
+                    <td>Cerebral blood flow</td>
+                    <td>↑</td>
+                    <td>↓</td>
+                  </tr>
+                  <tr>
+                    <td>Respiratory rate</td>
+                    <td>↑</td>
+                    <td>↓</td>
+                  </tr>
+                  <tr>
+                    <td>Dreaming</td>
+                    <td>↑</td>
+                    <td>↓</td>
+                  </tr>
+                  <tr>
+                    <td>Erection (penis)</td>
+                    <td>Yes</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td>Myoclonic jerk</td>
+                    <td>Yes</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td>Muscular tone</td>
+                    <td>↓↓</td>
+                    <td>↓</td>
+                  </tr>
+                  <tr>
+                    <td>Eye movement</td>
+                    <td>Yes</td>
+                    <td>Few</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <ul>
+                <li>The normal pattern of sleep involves 4–5 cycles of alternating REM and nonREM sleep with REM sleep becoming progressively more prominent.</li>
+                <li>The total time spent in REM sleep is 90 minutes in adults (20 per cent of the total sleep period).</li>
+                <li>Other than brief periods of wakefulness (5 per cent of the total sleep period), the remaining time is spent in non-REM sleep (75 per cent).</li>
+              </ul>
+              
+              <h4>NON-REM SLEEP</h4>
+              <ul>
+                <li>Consists of four stages:</li>
+                <li>
+                  <h5>Stage 1 (5 percent)</h5>
+                  <p>As the individual falls asleep, alpha activity diminishes to less than 50 percent of the EEG record, giving way to characteristic low-amplitude, low-voltage theta activity. Occasional vertex sharp waves (V waves) are normal. EMG activity decreases and rolling eye movements are present.</p>
+                </li>
+                <li>
+                  <h5>Stage 2 (55 percent)</h5>
+                  <p>Now in light sleep, the EEG shows low-voltage, slow frequencies (theta waves) that are interrupted intermittently by K complexes and sleep spindles. The latter are spindle-shaped EEG traces of short bursts (0.5 s) of waves (12–14 Hz). K complexes are high-voltage spikes consisting of a negative wave followed 0.75 s later by a positive wave.</p>
+                </li>
+                <li>
+                  <h5>Stage 3 (5 percent)</h5>
+                  <p>The onset of deep sleep is accompanied by the appearance on EEG of high amplitude (75V), low frequency (2 Hz) delta waves, which by definition form less than 50 percent but more than 20 percent of the trace.</p>
+                </li>
+                <li>
+                  <h5>Stage 4 (10 percent)</h5>
+                  <p>Delta waves form more than 50 percent of EEG activity.</p>
+                </li>
+              </ul>
+              <p>Collectively stages 3 and 4 are called slow wave sleep or synchronized sleep.</p>
+              <p>Sleep spindles can occur in slow wave sleep.</p>
+              
+              <h4>REM SLEEP</h4>
+              <ul>
+                <li>The EEG in REM sleep is characterized by random, fast mixed-frequency activity of low voltage (similar to awake state), hence it is also called paradoxical sleep.</li>
+                <li>It is distinguished by saw-tooth waves.</li>
+              </ul>
+              
+              <h4>Sleep Hypnogram</h4>
+              <ul>
+                <li>Sleep can be plotted as a hypnogram. In a normal adult, the pattern of sleep is as follows:</li>
+                <li>After entering sleep, the individual progresses through stages 1–4 and then returns to stage 3 and then 2. From stage 2, having been asleep for about 90 minutes, the individual enters their first period of REM sleep.</li>
+                <li>The individual then reverts to stage 2 sleep, and the cycle is repeated 4–5 times during the night with each cycle lasting 90 minutes.</li>
+                <li>As sleep progresses, the proportion of REM sleep increases and that of slow-wave sleep decreases.</li>
+              </ul>
+              
+              <h4>Sleep Changes with Age</h4>
+              <ul>
+                <li>Newborn sleeps 16 hours a day and is able to pass directly from wakefulness into REM sleep, which takes up more than 50 per cent of sleep. By 4 months REM forms 40 per cent of total sleep and is usually preceded by non-REM sleep.</li>
+                <li>Continuity of sleep is greatest in early childhood. It is least at extremes of age.</li>
+                <li>A young adult sleeps 8 hours a day of which 90 minutes (approx. 20 per cent) is REM sleep.</li>
+              </ul>
+              
+              <h4>Neurochemical Correlates of Sleep</h4>
+              <ul>
+                <li>Sleep is promoted by – Ach (REM), GABA.</li>
+                <li>Sleep is inhibited by – Noradrenaline, 5-HT, Dopamine, Histamine.</li>
+              </ul>
+              
+              <h4>Neuroendocrine Correlates of Sleep</h4>
+              <ul>
+                <li>As sleep starts – Testosterone levels increase.</li>
+                <li>Prolactin peaks prior to waking (increases in the last two hours of sleep).</li>
+                <li>REM sleep – Decreased Renin and decreased Melatonin.</li>
+                <li>Slow-wave Sleep – Peaks of Somatostatin (SS).</li>
+                <li>Growth Hormone levels – High.</li>
+                <li>Cortisol levels – Low.</li>
+              </ul>
+              
+              <h4>Theory of Sleep</h4>
+              <ul>
+                <li>Nucleus reticularis pontis caudalis of the pons: Cholinergic neurons function as ‘on’ cells promoting REM sleep.</li>
+                <li>Dorsal raphe nuclei serotonergic neurons and locus coeruleus noradrenergic neurons function as ‘off’ cells.</li>
+              </ul>
+              
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Sleep Disorders</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li><b>International Classification of Sleep Disorders (ICSD)</b>
+                <ul>
+                  <li><b>DYSOMNIAS (initiation or maintenance)</b>
+                    <ul>
+                      <li>Intrinsic sleep disorders</li>
+                      <li>Extrinsic sleep disorders</li>
+                      <li>Circadian rhythm sleep disorders</li>
+                    </ul>
+                  </li>
+                  <li><b>PARASOMNIAS (the disorders of arousal, partial arousal, and sleep-stage transition)</b></li>
+                  <li><b>SLEEP DISORDERS ASSOCIATED WITH MENTAL, NEUROLOGIC, OR OTHER MEDICAL DISORDERS</b></li>
+                  <li><b>PROPOSED SLEEP DISORDERS</b></li>
+                </ul>
+              </li>
+              <li><b>ICD 11 (Chapter 7: Sleep-wake disorders)</b>
+                <ul>
+                  <li>Insomnia disorders</li>
+                  <li>Hypersomnolence disorders</li>
+                  <li>Sleep-related breathing disorders</li>
+                  <li>Circadian rhythm sleep-wake disorders</li>
+                  <li>Sleep-related movement disorders</li>
+                  <li>Parasomnia disorders</li>
+                </ul>
+              </li>
+            </ul>
+            
+            <section id='heading-4-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-1'>DYSOMNIAS</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>The dyssomnias are the disorders that produce either difficulty initiating or maintaining sleep or excessive sleepiness.</li>
+                      <li>This section is divided into three groups of disorders: intrinsic sleep disorders, extrinsic sleep disorders, and circadian rhythm sleep disorders.</li>
+                    </ul>
+                    <h4>Intrinsic Sleep Disorders</h4>
+                    <ul>
+                      <li>Intrinsic sleep disorders either originate or develop within the body or arise from causes within the body.</li>
+                      <li>Psychologic and medical disorders producing a primary sleep disorder are listed here.</li>
+                      <li>Disorders arising within the body that are not primary sleep disorders are listed under Section 3, sleep disorders associated with mental, neurologic, or other medical disorders.</li>
+                    </ul>
+                    <ul>
+                      <li>Psychophysiological insomnia</li>
+                      <li>Sleep State Misperception</li>
+                      <li>Idiopathic Insomnia</li>
+                      <li>Narcolepsy</li>
+                      <li>Recurrent Hypersomnia</li>
+                      <li>Idiopathic Hypersomnia</li>
+                      <li>Posttraumatic Hypersomnia</li>
+                      <li>Obstructive sleep apnoea syndrome</li>
+                      <li>Central sleep apnoea syndrome</li>
+                      <li>Central alveolar hypoventilation syndrome</li>
+                      <li>Periodic limb movement disorder</li>
+                      <li>Restless legs syndrome</li>
+                    </ul>
+                    
+                    <h4>Extrinsic Sleep Disorders</h4>
+                    <ul>
+                      <li>Extrinsic sleep disorders either originate or develop from causes outside of the body.</li>
+                      <li>External factors are integral in producing these disorders.</li>
+                      <li>Removal of the external factor usually is associated with resolution of the sleep disturbance unless another sleep disorder develops during the course of the sleep disturbance (e.g., psychophysiologic insomnia may follow removal of an external factor responsible for the development of an adjustment sleep disorder).</li>
+                    </ul>
+                    <ul>
+                      <li>Inadequate sleep hygiene</li>
+                      <li>Environmental sleep disorder</li>
+                      <li>Altitude insomnia</li>
+                      <li>Adjustment sleep disorder</li>
+                      <li>Insufficient sleep syndrome</li>
+                      <li>Limit-setting sleep disorder</li>
+                      <li>Sleep-onset association disorder</li>
+                      <li>Food allergy insomnia</li>
+                      <li>Nocturnal eating (drinking) syndrome</li>
+                      <li>Hypnotic-dependent sleep disorder</li>
+                      <li>Stimulant-dependent sleep disorder</li>
+                      <li>Alcohol-dependent sleep disorder</li>
+                      <li>Toxin-induced sleep disorder</li>
+                    </ul>
+                    
+                    <h4>Circadian Rhythm Sleep Disorders</h4>
+                    <ul>
+                      <li>Circadian rhythm sleep disorders are disorders that are related to the timing of sleep within the 24-hour day.</li>
+                      <li>Some of these disorders are influenced by the timing of the sleep period that is under the individual’s control (e.g., shift work or time-zone change), whereas others are disorders of neurologic mechanisms (e.g., irregular sleep-wake pattern and advanced sleep-phase syndrome).</li>
+                      <li>Some of these disorders can be present in both an intrinsic and extrinsic form; however, their common linkage through chronobiologic, pathophysiologic mechanisms dictates their recognition as a homogeneous group of disorders.</li>
+                    </ul>
+                    <ul>
+                      <li>Time zone (jet lag) syndrome</li>
+                      <li>Shift work sleep disorder</li>
+                      <li>Irregular sleep-wake pattern</li>
+                      <li>Delayed sleep phase syndrome</li>
+                      <li>Advanced sleep phase syndrome</li>
+                      <li>Non 24-hour sleep-wake disorder</li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-4-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-2'>PARASOMNIAS</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>The parasomnias (i.e., the disorders of arousal, partial arousal, and sleep-stage transition) are disorders that intrude into the sleep process and are not primarily disorders of sleep and wake states per se.</li>
+                      <li>These disorders are manifestations of central nervous system activation, usually transmitted through skeletal muscle or autonomic nervous system channels.</li>
+                      <li>They are divided into four groups: arousal disorders, sleep-wake transition disorders, parasomnias usually associated with rapid eye movement (REM) sleep, and other parasomnias.</li>
+                    </ul>
+                    <h4>Arousal Disorders</h4>
+                    <ul>
+                      <li>Arousal disorders are manifestations of partial arousal that occur during sleep.</li>
+                      <li>These disorders are the “classic” arousal disorders that appear to be primarily disorders of normal arousal mechanisms.</li>
+                      <li>Examples:
+                        <ul>
+                          <li>Confusional arousals</li>
+                          <li>Sleepwalking</li>
+                          <li>Sleep terrors</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Parasomnias Usually Associated with REM Sleep</h4>
+                    <ul>
+                      <li>The parasomnias usually associated with REM sleep have their onset during the REM sleep stage; some of these REM sleep parasomnias do occur during other sleep stages, but this occurrence is rare.</li>
+                    </ul>
+                    <ul>
+                      <li>Nightmares</li>
+                      <li>Sleep paralysis</li>
+                      <li>Impaired sleep-related penile erections</li>
+                      <li>Sleep-related painful erections</li>
+                      <li>REM sleep-related sinus arrest</li>
+                      <li>REM sleep behaviour disorder</li>
+                    </ul>
+                    
+                    <h4>Other Parasomnias</h4>
+                    <ul>
+                      <li>Other parasomnias are those parasomnias that do not fall into the categories of arousal disorders, sleep-wake transition disorders, or parasomnias associated with REM sleep.</li>
+                    </ul>
+                    <ul>
+                      <li>Sleep bruxism</li>
+                      <li>Sleep enuresis</li>
+                      <li>Sleep-related abnormal swallowing syndrome</li>
+                      <li>Nocturnal paroxysmal dystonia</li>
+                      <li>Sudden unexplained nocturnal death syndrome</li>
+                      <li>Primary snoring</li>
+                      <li>Infant sleep apnoea</li>
+                      <li>Congenital central hypoventilation syndrome</li>
+                      <li>Sudden infant death syndrome</li>
+                      <li>Benign neonatal sleep myoclonus</li>
+                    </ul>
+                    
+
+                    <table class="note-table">
+                        <thead>
+                          <tr>
+                            <th>Characteristic</th>
+                            <th>Nightmare Disorder</th>
+                            <th>Sleep Terror Disorder</th>
+                            <th>REM Sleep Behavior Disorder</th>
+                            <th>Sleepwalking Disorder</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Sleep stage</td>
+                            <td>REM</td>
+                            <td>NREM</td>
+                            <td>REM</td>
+                            <td>NREM</td>
+                          </tr>
+                          <tr>
+                            <td>Dream recall</td>
+                            <td>Yes</td>
+                            <td>No</td>
+                            <td>Yes</td>
+                            <td>No</td>
+                          </tr>
+                          <tr>
+                            <td>Motor activity</td>
+                            <td>No</td>
+                            <td>Screaming, motoric agitation</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                          </tr>
+                          <tr>
+                            <td>On awakening</td>
+                            <td>Alert</td>
+                            <td>Confused, disoriented</td>
+                            <td>Alert</td>
+                            <td>Confused, disoriented</td>
+                          </tr>
+                          <tr>
+                            <td>Time of night</td>
+                            <td>Last third of night</td>
+                            <td>First third of night</td>
+                            <td>Second half of night</td>
+                            <td>First half of night</td>
+                          </tr>
+                          <tr>
+                            <td>Prevalence</td>
+                            <td>Children, 20%; adults, 5–10%</td>
+                            <td>Children, 5%; adults, &lt;1%</td>
+                            <td>Unknown</td>
+                            <td>Children, 1–20%; adults, &lt;1%</td>
+                          </tr>
+                          <tr>
+                            <td>Autonomic activation</td>
+                            <td>Slight, secondary to fear</td>
+                            <td>Extreme, with sweating and vocalizations</td>
+                            <td>Associated with REM and motor activity</td>
+                            <td>Not present</td>
+                          </tr>
+                          <tr>
+                            <td>Danger to self</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td>Patient acts out dream</td>
+                            <td>Patient walks anywhere</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                </div>
+              </section>
+
+              <section id='heading-4-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-3'>SLEEP DISORDERS ASSOCIATED WITH MENTAL, NEUROLOGIC, OR OTHER MEDICAL DISORDERS</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>This section lists those disorders that are not primarily sleep disorders but are mental, neurologic, or other medical disorders that have either sleep disturbance or excessive sleepiness as a major feature of the disorder.</li>
+                      <li>This listing of mental, neurologic, or other medical disorders is not intended to include all mental and medical disorders that affect sleep or wakefulness.</li>
+                      <li>It does include, however, those disorders most commonly associated with sleep symptoms.</li>
+                    </ul>
+                    
+                    <h4>Associated with Mental Disorders</h4>
+                    <ul>
+                      <li>Psychoses</li>
+                      <li>Mood Disorders</li>
+                      <li>Anxiety Disorders</li>
+                      <li>Panic Disorder</li>
+                      <li>Alcoholism</li>
+                    </ul>
+                    
+                    <h4>Associated with Neurological Disorders</h4>
+                    <ul>
+                      <li>Cerebral degenerative disorders</li>
+                      <li>Dementia</li>
+                      <li>Parkinsonism</li>
+                      <li>Fatal Familial Insomnia</li>
+                      <li>Sleep-related epilepsy</li>
+                      <li>Electrical status epilepticus of sleep</li>
+                      <li>Sleep-related headaches</li>
+                    </ul>
+                    
+                    <h4>Associated with Other Medical Disorders</h4>
+                    <ul>
+                      <li>Sleeping Sickness</li>
+                      <li>Nocturnal cardiac ischaemia</li>
+                      <li>Chronic obstructive pulmonary disease</li>
+                      <li>Sleep-related asthma</li>
+                      <li>Sleep-related gastroesophageal reflux</li>
+                      <li>Peptic ulcer disease</li>
+                      <li>Fibrositis syndrome</li>
+                    </ul>
+                    
+                </div>
+              </section>
+
+              <section id='heading-4-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-4'>PROPOSED SLEEP DISORDERS</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>This section lists those disorders for which there is insufficient information available to confirm the unequivocal existence of the disorder (e.g., subwakefulness syndrome).</li>
+                      <li>Most newly described sleep disorders fall under this category until replicated data are available in the literature (e.g., sleep choking syndrome).</li>
+                      <li>Some sleep disorders that are controversial as to whether they are the extremes of the normal range or represent a definitive disorder of sleep also are included here (e.g., short and long sleepers).</li>
+                    </ul>
+                    <ul>
+                      <li>Short sleeper</li>
+                      <li>Long sleeper</li>
+                      <li>Subwakefulness syndrome</li>
+                      <li>Fragmentary myoclonus</li>
+                      <li>Sleep hyperhidrosis</li>
+                      <li>Menstrual-associated sleep disorder</li>
+                      <li>Pregnancy-associated sleep disorder</li>
+                      <li>Terrifying Hypnogogic Hallucinations</li>
+                      <li>Sleep-related neurogenic tachypnea</li>
+                      <li>Sleep-related laryngospasm</li>
+                      <li>Sleep choking syndrome</li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-4-5'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-5'>INSOMNIA</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>The predominant complaint is difficulty initiating or maintaining sleep, or non-restorative sleep, for at least 1 month.</li>
+                      <li>The sleep disturbance (or associated daytime fatigue) causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.</li>
+                      <li>The sleep disturbance does not occur exclusively during the course of narcolepsy, breathing-related sleep disorder, circadian rhythm sleep disorder, or a parasomnia.</li>
+                      <li>The disturbance does not occur exclusively during the course of another mental disorder (eg, major depressive disorder, generalized anxiety disorder, a delirium).</li>
+                    </ul>
+                    <p><strong>General Considerations</strong></p>
+                    <ul>
+                      <li>Transient difficulty sleeping is a vastly more common phenomenon than is chronic insomnia.</li>
+                      <li>Particularly when the onset of the complaint is coincident with a recent stressful life event, such as bereavement, the short-term administration of mild sedative-hypnotics such as benzodiazepines may be indicated.</li>
+                    </ul>
+                    <p>The diagnosis of chronic insomnia is based on the subjective complaint of difficulty in initiating or maintaining sleep or of non-restorative sleep (not feeling well-rested after sleep that is apparently adequate in amount) for a duration of 1 month.</p>
+                    <p><strong>Insomnia</strong> is more common in women than in men; is more common with age; and is often associated with medical and psychiatric disorders or with abuse of alcohol, drugs, and medications.</p>
+                    <ul>
+                      <li>Because chronic insomnia most often occurs as a co-morbid diagnosis with other disorders, the clinician should look carefully for other conditions and treat the primary disorder.</li>
+                      <li>In fact, primary insomnia in its "pure" form apparently comprises only a very small proportion of the population of patients complaining of difficulty sleeping.</li>
+                    </ul>
+                    
+    
+                    <h4>Insomnia Associated with Behavioral or Psychophysiologic Disorders</h4>
+                    <p>Acute stress is probably the most common cause of transient and short-term insomnia. These patients may not come to the attention of a clinician because the condition is self-limited and usually resolves without intervention.</p>
+                    <p>Polysomnographic abnormalities have been documented in acute bereavement; however, persistent insomnia over months should raise the consideration of depression, adjustment disorder, and other disorders in the differential diagnosis.</p>
+                    
+                    <h4>Psycho-physiologic Insomnia</h4>
+                    <p>Psychophysiologic insomnia is defined as a "disorder of somatized tension and learned sleep-preventing associations that result in a complaint of insomnia".</p>
+                    <p>All patients with chronic insomnia probably develop some learned sleep-preventing associations, such as marked over concern with their inability to sleep.</p>
+                    <p>The frustration, anger, and anxiety associated with trying to sleep or maintain sleep serve only to arouse them as they try to go to sleep or maintain sleep.</p>
+                    <p>These patients may acquire aversive associations with their bedrooms and often sleep better in other places such as in front of the television set, in a hotel, or in the sleep laboratory.</p>
+                    
+                    <h4>Insomnia Associated with Sleep-Related Movement Disorders</h4>
+                    <p>Restless leg syndrome (RLS) and periodic limb movement of sleep (PLMS) are often discussed together because of the clinical overlap in presentation and symptoms.</p>
+                    <p>RLS has often been described as an uncomfortable "creeping, crawling" sensation or "pins and needles feeling" in the limbs, especially in the lower extremities.</p>
+                    <p>RLS tends to occur during waking and at sleep onset, whereas PLMS occurs during sleep.</p>
+                    <p>Patients with RLS sometimes also have PLMS, but patients with PLMS often do not have RLS.</p>
+                    <p>For most patients with RLS, being recumbent increases the discomfort in the legs and leads to difficulty sleeping.</p>
+                    <p>Further sleep disruption may occur if movement of the affected limb becomes the only way to relieve the dysesthesia.</p>
+                    <p>Patients with RLS or PLMS may present with either of two very different primary complaints: insomnia or hypersomnia.</p>
+                    <p>The movements in PLMS are involuntary, rhythmic, periodic contractions of the anterior tibial muscle with dorsiflexion of the ankle.</p>
+                    <p>The twitches or contractions themselves are about 0.5–5 seconds in duration, usually occurring roughly every 20–40 seconds over periods that can last from minutes to hours.</p>
+                    <p>Each movement may lead to a brief arousal from sleep, although the degree of disruption can vary greatly from patient to patient and even between nights for a given patient.</p>
+                    <p>PLMS may thus provoke tremendous fragmentation of sleep throughout an entire night, a disruption of which the patient is commonly not consciously aware.</p>
+                    <p>The incidence of PLMS increases with advancing age: Patients aged 30–50 years have a slight chance of developing PLMS; the chance increases to 30% over the age of 50 years and to almost 50% over the age of 65 years.</p>
+                    <p>Polysomnographic evaluation confirms and quantifies severity of PLMS and resultant sleep disruption.</p>
+                    <p>Treatment: Gamma amino butyric acid (GABA)-ergic agents (eg, baclofen, carbamazepine, and benzodiazepines, especially clonazepam)</p>
+                    
+
+                    <h4>Treatment Approaches</h4>
+                    <h4><em>Nonpharmacologic Approaches</em></h4>
+                    <ul>
+                      <li><strong>Doctor-Patient Relationship:</strong> The doctor-patient relationship is often important not only for its positive benefits but also for preventing secondary complications of insomnia, such as psychological dependence and misuse of hypnotics, alcohol abuse, and circadian disturbances.</li>
+                      <li><strong>Counselling & Psychotherapy:</strong> Some authorities advocate psychotherapy because they believe that insomnia results from anxiety, depression, obsessive rumination, internalization of emotions, and other cognitive and emotional arousal processes.</li>
+                      <li><strong>Sleep Hygiene:</strong> Stimulus-control treatment approaches have been shown in some studies to be effective, usually with young patients who have relatively mild insomnia.</li>
+                    </ul>
+                    <p><strong>Sleep hygiene</strong></p>
+                    <ul>
+                      <li>Keep bedtimes and awakening times constant, even on the weekends.</li>
+                      <li>Do not use the bed for watching television, reading, or working.</li>
+                      <li>If sleep does not begin within a period of time, say, 30 minutes, leave the bed and do not return until drowsy.</li>
+                      <li>Avoid napping.</li>
+                      <li>Exercise regularly (three to four times per week), but try to avoid exercising in the evening if this tends to interfere with sleep.</li>
+                      <li>Discontinue or reduce alcohol, caffeine, cigarettes, and other substances that may interfere with sleep.</li>
+                      <li>Sleep on a comfortable bed.</li>
+                      <li>Keep room comfortable: temperature, lighting, mosquito, rodents.</li>
+                      <li>If possible, sleep alone. Avoid snoring partner, avoid partner who engage in midnight calls, etc.</li>
+                    </ul>
+                    <p><strong>Behavioural & Biofeedback Techniques:</strong> These techniques include autogenic training, progressive muscle relaxation, EMG biofeedback, and EEG feedback.</p>
+                    <p><strong>Sleep Restriction Therapy:</strong> Because many patients with chronic insomnia both underestimate their actual sleep time and have poor sleep efficiency, it has been proposed that patients limit the time they spend in bed to the estimated duration of total sleep.</p>
+                    <ul>
+                      <li>For example, if the patient reports sleeping 6 hours per night, he or she is required to limit time in bed to 6 hours or slightly more. This simple maneuver usually produces mild sleep deprivation, shortens sleep latency, and increases sleep efficiency. As sleep becomes more consolidated, the patient is allowed to gradually increase time in bed.</li>
+                    </ul>
+                    
+                    <h4><em>Pharmacological treatments</em></h4>
+                    <ul>
+                      <li><strong>Sedative-Hypnotics</strong></li>
+                      <li><strong>Sedating Antidepressants</strong></li>
+                    </ul>
+                </div>
+              </section>
+
+              <section id='heading-4-6'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-6'>HYPERSOMNIAS</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <p><strong>Diagnostic Criteria</strong></p>
+                    <ul>
+                      <li><strong>Primary Hypersomnia</strong></li>
+                    </ul>
+                    <ul>
+                      <li>The predominant complaint is excessive sleepiness for at least 1 month (or less if recurrent) as evidenced by either prolonged sleep episodes or daytime sleep episodes that occur almost daily.</li>
+                      <li>The excessive sleepiness causes clinically significant distress or impairment in social, occupational, or other important areas of functioning.</li>
+                      <li>The excessive sleepiness is not better accounted for by insomnia and does not occur exclusively during the course of another sleep disorder and cannot be accounted for by an inadequate amount of sleep.</li>
+                      <li>The disturbance does not occur exclusively during the course of another mental disorder.</li>
+                      <li>The disturbance is not due to the direct physiological effects of a substance or a general medical condition.</li>
+                    </ul>
+                    
+                    <p><strong>Narcolepsy</strong></p>
+                    <ul>
+                      <li>Irresistible attacks of refreshing sleep that occur daily for at least 3 months.</li>
+                      <li>The presence of one or both of the following:</li>
+                      <ul>
+                        <li>cataplexy (i.e., brief episodes of sudden bilateral loss of muscle tone, most often in association with intense emotion)</li>
+                        <li>Recurrent intrusions of elements of rapid eye movement sleep into the transition between sleep and wakefulness, as manifested by either hypnopompic or hypnagogic hallucinations or sleep paralysis at the beginning or end of sleep episodes</li>
+                      </ul>
+                      <li>The disturbance is not due to the direct physiological effects of a substance or another general medical condition.</li>
+                    </ul>
+                    <p>Narcolepsy is a disorder classically associated with uncontrollable sleep attacks in which the patient abruptly falls asleep in inappropriate (e.g., while eating), embarrassing (e.g., during intercourse), and even dangerous (e.g., while driving) situations. Although sleep attacks have been described as brief (e.g., lasting 15–20 minutes) and refreshing, this is not always true.</p>
+                    <p>Most narcoleptics experience related symptoms, including cataplexy (a sudden loss of muscle tone), hypnagogic hallucinations (dreamlike experiences while falling asleep but not yet asleep), and sleep paralysis (brief paralysis associated with the onset of sleep or wakefulness).</p>
+                    <p>However, only 10–15% of narcoleptic patients will have all four major symptoms (the classic tetrad).</p>
+                    <p>Many narcoleptic patients also report having performed complex behaviors (such as walking from one place to another or writing) without recalling them.</p>
+                    <p>Even in the absence of serious consequences, these symptoms can be frightening for patients and vexing for family members, co-workers, and others. The symptoms can be misinterpreted or misidentified by lay people and unwary clinicians alike. For example, milder episodes of cataplexy (dropping a cup upon hearing a joke) may be attributed to carelessness or clumsiness. Alternatively, a patient may be misdiagnosed as psychotic if his or her doctor mistakenly assumes the hypnagogic hallucinations occur during full wakefulness or have the same significance as waking hallucinations.</p>
+                    <p>Narcolepsy is believed to result from defective REM sleep regulation. Cataplexy and sleep paralysis can be thought of as atonia without REM, whereas hypnagogic hallucinations and sleep attacks have been likened to REM intrusion. Narcolepsy has a prevalence of roughly 0.1%. It generally begins in adolescence and occurs equally in males and females.</p>
+                    <p>Empiric evidence of increased incidence associated with positive family history and histocompatibility locus antigen (HLA)-typing studies are consistent with a genetic contribution. The antigens HLA-DR2 and DQw are highly prevalent in narcolepsy.</p>
+                    <p>Diagnosis of narcolepsy is confirmed in the sleep laboratory by a sleep-onset REM period (on all-night PSG) or a positive multiple sleep latency test (MSLT) (e.g., REM onset during two of the daytime nap opportunities).</p>
+                    
+
+                    <h4>Kleine-Levin Syndrome</h4>
+                    <p>Recurrent Hypersomnia (Kleine-Levin Syndrome)</p>
+                    <p>Recurrent hypersomnia is characterized by infrequent (usually once or twice a year) episodes of sleeping 18 or more hours per day for at least 3 days at a time. Episodes may also be associated with hyperphagia, hypersexuality, irritability, and confusion, with normal interepisode functioning. It occurs most commonly in adolescent males.</p>
+                    
+                    <h4>Treatment of hypersomnias</h4>
+                    <ul>
+                    <li>Treatment of narcolepsy is based on the individual patient's specific target symptoms, the severity of the symptoms, and lifestyle considerations unique to the patient.</li>
+                    <li>Although some patients with narcolepsy are able to achieve reasonable control of their sleep attacks by structuring their days with scheduled naps, many patients require stimulants (eg, methylphenidate, amphetamines, pemoline) for EDS.</li>
+                    </ul>
+                    <p>More recently, modafinil has shown considerable promise in preventing sleep attacks and appears to be well tolerated.</p>
+                    <p>Treatment of cataplexy and other cardinal symptoms is based on inhibition of REM sleep by antidepressants such as protriptyline or monoamine oxidase inhibitors.</p>
+                    <p>Treating other causes of hypersomnia tends to be more difficult than managing narcolepsy; however, similar use of stimulants has been partially successful</p>
+                    
+                </div>
+              </section>
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 

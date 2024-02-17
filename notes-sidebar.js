@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Traditional Therapies in Psychiatry in Nigeria",
       "Normal Personality and Personality Disorders",
       "Forensic Psychiatry",
-      "",
+      "EEG and Sleep Disorders",
       "",
       "",
       // Add more topics as needed
