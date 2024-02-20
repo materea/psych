@@ -1099,7 +1099,7 @@ footer p, footer span{
   border-radius: 8px;
   padding: 20px;
   margin-left: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;wa
   width: 90%;
   background-color: var(--color-darker-dark);
 }
@@ -1842,6 +1842,11 @@ figcaption {
   font-size: 1.5em;
   margin-bottom: 10px;
   font-family: var(--font-family-quartenary);
+}
+
+.warning-popup img {
+  height: 10rem;
+  width: auto;
 }
 
 .warning-popup p {
