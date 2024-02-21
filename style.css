@@ -1855,6 +1855,7 @@ figcaption {
   font-family: var(--font-family-primary);
 }
 
+
 #close-popup {
   background-color: var(--color-darker);
   color: var(--color-primary);
@@ -1867,7 +1868,7 @@ figcaption {
 }
 
 #close-popup:hover {
-  background-color: var(--color-red);
+  background-color: var(--color-secondary);
 }
 
 /* more-resources */
