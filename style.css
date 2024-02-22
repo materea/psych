@@ -2111,7 +2111,7 @@ input[type="checkbox"] {
    margin: 2rem 0;
 }
  blockquote.q-card::before {
-	 --qHeight: 4rem;
+	 --qHeight: 2rem;
 	 content: "";
 	 margin-left: calc(var(--padding) * -1);
 	 margin-top: calc(var(--padding) * -1);
