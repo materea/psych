@@ -1821,7 +1821,7 @@ figcaption {
 /* warning popup */
 
 .warning-popup {
-  background-color: #fff;
+  background-color: var(--color-darker-dark);
   border: 1px solid #ccc;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
