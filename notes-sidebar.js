@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Child Psychiatry",
       "Child Abuse",
       "Pregnancy and Psychiatry",
-      "",
+      "Psychology of  Chronic and Terminal Illness",
       "",
       "",
       "",
