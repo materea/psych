@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Array of topics - you can dynamically generate this from your existing content
     var topics = [
+      "The History Organization and Future of Psychiatry in Nigeria",
       "Mental Health",
       "Classification of Psychiatric Disorders",
       "Psychological Assessment",
@@ -27,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
       "Child Psychiatry",
       "Child Abuse",
       "Pregnancy and Psychiatry",
-      "",
       "",
       "",
       "",
