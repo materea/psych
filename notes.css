@@ -86,7 +86,7 @@ html {
     font-size: .85rem;
     top: 0rem;
     z-index: 6;
-    line-height: 1.3;
+    line-height: 1.4;
 
   }
 
@@ -101,7 +101,7 @@ html {
     font-size: .85rem;
     top: 3.5rem;
     z-index: 5;
-    line-height: 1.3;
+    line-height: 1.4;
   }
   
   .notes article section section section:target {
@@ -114,7 +114,7 @@ html {
     font-size: .8rem;
     top: 6.4rem;
     z-index: 4;
-    line-height: 1.3;
+    line-height: 1.4;
   }
 
   #last-modified {
