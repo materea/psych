@@ -946,7 +946,7 @@ p {
   left: 30px;
   font-size: .9rem;
   font-weight: 400;
-  font-family: var(--font-family-tertiary);
+  font-family: var(--font-family-quartenary);
 }
 .topics ul li span {
   display: block;

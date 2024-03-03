@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Pregnancy and Psychiatry",
       "Psychology of  Chronic and Terminal Illness",
       "Suicide",
-      "",
+      "Eating Disorders",
       "",
       "",
       "",
