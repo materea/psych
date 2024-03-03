@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Child Abuse",
       "Pregnancy and Psychiatry",
       "Psychology of  Chronic and Terminal Illness",
-      "",
+      "Suicide",
       "",
       "",
       "",
