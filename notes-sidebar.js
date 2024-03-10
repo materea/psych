@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Suicide",
       "Eating Disorders",
       "Electroconvulsive Therapy",
-      "",
+      "Descriptive Psychopathology",
       "",
       "",
       "",
