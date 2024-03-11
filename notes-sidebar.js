@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Affective Disorders",
       "Organic Mental-Neurocognitive disorders",
       "Stress Related Disorders and their Management",
-      "Stress, Illness and Coping",
+      "Stress Illness and Coping",
       "Schizophrenia",
       "Anxiety and Other Related Disorders",
       "Sexual Disorders",
