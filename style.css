@@ -1854,6 +1854,7 @@ figcaption {
 }
 
 .warning-popup p {
+  font-size: .8rem;
   margin-bottom: 15px;
   text-align: left;
   font-family: var(--font-family-primary);
